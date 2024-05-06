@@ -15,7 +15,7 @@ A UART communication link was established between two FPGA boards. The functiona
   - `uart.sv`: Full UART implementation.
 - **docs**: Contains the project report and assignment details.
 
-# Simulation Using Quartus and ModelSim
+## Simulation Using Quartus and ModelSim
 
 For detailed instructions on setting up and simulating a project using Quartus Prime 20.1.1 and ModelSim, please refer to the [provided PDF document](docs/Simulation%20Using%20Quartus%20and%20ModelSim.pdf).
 
