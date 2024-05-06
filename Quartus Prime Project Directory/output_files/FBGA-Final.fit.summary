@@ -1,0 +1,10 @@
+I/O Assignment Analysis Status : Successful - Mon May 06 16:58:53 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : FBGA-Final
+Top-level Entity Name : uart
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total pins : 27 / 154 ( 18 % )
+Total virtual pins : 0
+Total PLLs : 0 / 4 ( 0 % )

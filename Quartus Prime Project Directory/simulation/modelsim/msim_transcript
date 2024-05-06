@@ -1,0 +1,96 @@
+# Reading pref.tcl
+# do FBGA-Final_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Januka/OneDrive\ -\ University\ of\ Moratuwa/SEM\ 4/Assignments/UART/ours/Final {C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/uart.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:15:09 on May 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final" C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/uart.sv 
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# End time: 16:15:09 on May 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Januka/OneDrive\ -\ University\ of\ Moratuwa/SEM\ 4/Assignments/UART/ours/Final {C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/transmitter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:15:09 on May 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final" C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/transmitter.sv 
+# -- Compiling module transmitter
+# 
+# Top level modules:
+# 	transmitter
+# End time: 16:15:09 on May 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Januka/OneDrive\ -\ University\ of\ Moratuwa/SEM\ 4/Assignments/UART/ours/Final {C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:15:09 on May 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final" C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:15:10 on May 06,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Januka/OneDrive\ -\ University\ of\ Moratuwa/SEM\ 4/Assignments/UART/ours/Final {C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/receiver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:15:10 on May 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final" C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/receiver.sv 
+# -- Compiling module receiver
+# 
+# Top level modules:
+# 	receiver
+# End time: 16:15:10 on May 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Januka/OneDrive\ -\ University\ of\ Moratuwa/SEM\ 4/Assignments/UART/ours/Final {C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/binary_to_7seg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:15:10 on May 06,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final" C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/binary_to_7seg.sv 
+# -- Compiling module binary_to_7seg
+# 
+# Top level modules:
+# 	binary_to_7seg
+# End time: 16:15:10 on May 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 16:15:37 on May 06,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.uart
+# Loading work.transmitter
+# Loading work.receiver
+# Loading work.binary_to_7seg
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (8) for port 'display_out'. The port definition is at: C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/uart.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/test_uart File: C:/Users/Januka/OneDrive - University of Moratuwa/SEM 4/Assignments/UART/ours/Final/testbench.sv Line: 20
+add wave -position end  sim:/testbench/CLOCKS_PER_PULSE
+add wave -position end  sim:/testbench/data_in
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/rstn
+add wave -position end  sim:/testbench/enable
+add wave -position end  sim:/testbench/tx_busy
+add wave -position end  sim:/testbench/ready
+add wave -position end  sim:/testbench/data_out
+add wave -position end  sim:/testbench/display_out
+add wave -position end  sim:/testbench/loopback
+add wave -position end  sim:/testbench/ready_clr
+run
+run
+run
+run
+run
+run
+run
+run
+# image file format "bmp" is unknown
+# End time: 16:20:52 on May 06,2024, Elapsed time: 0:05:15
+# Errors: 0, Warnings: 1
