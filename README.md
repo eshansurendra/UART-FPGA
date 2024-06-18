@@ -4,7 +4,7 @@ This repository documents a project undertaken as part of the EN2111 Electronic 
 
 ## Project Overview
 
-The objective of this project was to establish a functional UART communication link between two FPGA boards using the Quartus Prime development platform. This involved:
+The objective of this project was to establish a functional UART communication link between two `DE0-Nano FPGA Development Boards` using the Quartus Prime development platform. This involved:
 
 * **Design and Implementation:** Designing and implementing the UART transmitter and receiver modules in SystemVerilog.
 * **Verification and Testing:** Utilizing Quartus Prime and ModelSim to simulate and verify the functionality of the designed UART modules.
@@ -49,3 +49,8 @@ The project utilizes `Quartus Prime 20.1.1` for FPGA development and `ModelSim` 
 
 This project serves as a practical foundation for learning about serial communication protocols, their implementation within FPGAs, and the tools and techniques used in FPGA design and development.
 
+## References
+
+- [Terasic DE0-Nano FPGA Development Board Documentation](https://www.terasic.com.tw/cgi-bin/page/archive.pl?No=593)
+- [Intel Quartus Prime User Guides](https://www.intel.com/content/www/us/en/support/programmable/support-resources/design-software/user-guides.html)
+- [Verilog UART Implementation](https://github.com/amclain/verilog-uart/tree/master)
